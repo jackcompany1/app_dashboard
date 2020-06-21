@@ -1,6 +1,6 @@
 <?php 
 require_once 'config.php';
-//var_dump($_POST);
+//    var_dump($_POST);
 session_start();
 if (empty($_SESSION['id']) && empty($_SESSION['name'])){
  
